@@ -1,0 +1,54 @@
+[0.332s] Invoking command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hjokar/urdf_gazebo_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/hjokar/urdf_gazebo_ws/install/urdf_example
+[2.091s] -- The C compiler identification is GNU 11.4.0
+[3.081s] -- The CXX compiler identification is GNU 11.4.0
+[3.200s] -- Detecting C compiler ABI info
+[3.480s] -- Detecting C compiler ABI info - done
+[3.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.511s] -- Detecting C compile features
+[3.547s] -- Detecting C compile features - done
+[3.572s] -- Detecting CXX compiler ABI info
+[3.785s] -- Detecting CXX compiler ABI info - done
+[3.797s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.798s] -- Detecting CXX compile features
+[3.798s] -- Detecting CXX compile features - done
+[4.046s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.475s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.804s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.065s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.081s] -- Added test 'lint_cmake' to check CMake code style
+[5.082s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.084s] -- Added test 'xmllint' to check XML markup files
+[5.106s] -- Configuring done
+[5.110s] -- Generating done
+[5.112s] -- Build files have been written to: /home/hjokar/urdf_gazebo_ws/build/urdf_example
+[5.117s] Invoked command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hjokar/urdf_gazebo_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/hjokar/urdf_gazebo_ws/install/urdf_example
+[5.122s] Invoking command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hjokar/urdf_gazebo_ws/build/urdf_example -- -j4 -l4
+[5.176s] Invoked command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hjokar/urdf_gazebo_ws/build/urdf_example -- -j4 -l4
+[5.216s] Invoking command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hjokar/urdf_gazebo_ws/build/urdf_example
+[5.226s] -- Install configuration: ""
+[5.226s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/description
+[5.227s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[5.227s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/description/example_include.xacro
+[5.227s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[5.227s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/launch
+[5.227s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/worlds
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/worlds/test_world.world
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[5.228s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[5.229s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[5.229s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/environment/path.sh
+[5.229s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/environment/path.dsv
+[5.230s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/local_setup.bash
+[5.230s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/local_setup.sh
+[5.230s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/local_setup.zsh
+[5.231s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/local_setup.dsv
+[5.231s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/package.dsv
+[5.231s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[5.231s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[5.232s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[5.232s] -- Installing: /home/hjokar/urdf_gazebo_ws/install/urdf_example/share/urdf_example/package.xml
+[5.234s] Invoked command in '/home/hjokar/urdf_gazebo_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hjokar/Desktop/robot_ws/install/main_package:/home/hjokar/Desktop/ur5_ws/install/ur5_package:/home/hjokar/second_ros2_ws/install/urdf_tutorial_r2d2:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hjokar/urdf_gazebo_ws/build/urdf_example
